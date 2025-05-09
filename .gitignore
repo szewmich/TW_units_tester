@@ -1,0 +1,8 @@
+rand_test.py
+*.iml
+*.xml
+*.pyc
+/venv
+wh_template.xlsx
+test.py
+warhammer_data.xlsx
