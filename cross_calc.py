@@ -86,10 +86,10 @@ if __name__ == "__main__":
     df = pd.read_excel(path, sheet_name="DATA", header = 0, index_col = 0)
     factions = df['faction'].unique().tolist()
 
-    A_set = ['Armenia', 'Pontos', 'Caledones', 'Iweriu', 'Bosporus', 'Parthia', 'Athens', 'Sparta']
+    # A_set = ['Armenia', 'Pontos', 'Caledones', 'Iweriu', 'Bosporus', 'Parthia', 'Athens', 'Sparta']
     # for faction_A in factions:
-    # faction_A = 'Galatia'
-    for faction_A in A_set:
+    # faction_A = 'Cimbri'
+    for faction_A in factions:
         for faction_B in factions:
             if faction_A != faction_B:
                 finished_results = os.listdir(out_dir)

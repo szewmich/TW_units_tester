@@ -283,6 +283,8 @@ def run_sim(ID_A, ID_B):
             missile_attacks_done = 0
         else:
             missile_attacks_done = 2
+            A_model_hp_shot = A_model_hp_base
+            B_model_hp_shot = B_model_hp_base
 
         # While both units are alive (total hp > 0) and fighting
         while ongoing:
@@ -563,4 +565,4 @@ def run_sim(ID_A, ID_B):
     return A_gold_adv
 
 if __name__ == "__main__":
-    run_sim(955, 1114)
+    run_sim(196, 665)
