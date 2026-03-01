@@ -13,8 +13,8 @@ cell_width = 0.05
 
 out_dir = 'results_v02\\'
 
-faction_A = 'Bactria'
-faction_B = 'Odrysian'
+faction_A = 'Maurya'
+faction_B = 'Ptolemaioi'
 
 path = out_dir + faction_A + "_vs_" + faction_B + "_results.csv"
 
